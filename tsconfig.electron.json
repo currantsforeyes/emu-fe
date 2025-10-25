@@ -5,7 +5,7 @@
     "target": "ES2022",
     "lib": ["ES2022"],
     "outDir": "dist-electron",
-    "rootDir": "src/electron",
+    "rootDir": "electron",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -17,7 +17,7 @@
     "isolatedModules": false
   },
   "include": [
-    "src/electron/**/*"
+    "electron/**/*"
   ],
   "exclude": [
     "node_modules",
